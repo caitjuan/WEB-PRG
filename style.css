@@ -1,0 +1,106 @@
+body {
+    background: url("homebg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sidebarcss {
+    height:100%;
+    width: 200px;
+    text-align: left;
+    padding: 0px 16px;
+    float: none;
+    background-color: #7a8090;
+    position:fixed !important;
+    overflow:auto;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 9px;
+    animation: slide 0.5s;
+}
+
+@keyframes slide {
+    0% {left:-200px;}
+    100% {left:0px;}
+}
+
+.sidebarcss a {
+    color: #d3d5da;
+    font-size: 18px;
+}
+
+.sidebarcss a:hover {
+    color: #e9eaed;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menubutton {
+    margin-top: -25px;
+    font-size: 20px;
+    color: #21264c;
+    background: #7a8090;
+    border: none;
+}
+
+p {
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.sidebarcss .row {
+    margin-left: 2px;
+}
+
+.glyphicon.glyphicon-th-list {
+    font-size: 25px;
+    color: #21264c;
+    background: #7a8090;
+    border: none;
+    margin-top: 11px;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #646b7e;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #4d566b;
+}
+
+.search-container input[type=text] {
+    padding: 8px;
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 12px;
+    border: none;
+}
+
+ul#menu{
+    background: url("header.jpg");
+    display: inline-block;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:4em;
+    margin:0;
+    padding:0 10px;
+    background-color: #7a8090;
+    color:#eee;
+    box-shadow:0 -1px rgba(0,0,0,.5) inset;
+    display: inline-block;
+}
+
+ul#menu > a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
