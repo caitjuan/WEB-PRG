@@ -1,22 +1,37 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="js.js"></script>
-    <title> Sign Up | DIY minimalist </title>
+    <head>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js.js"></script>
+                
+        <title> Log In | DIY minimalist </title>
     </head>
 
     <header>
-        <ul id="menu">
+        <ul id="header">
             <a href="viewer_home.html" style="font-size:25px" class="glyphicon glyphicon-home pull-left"></a>
-            <a href="signup.html" class="pull-right" style="margin-right: 2%"><font color="21264c"><b>Sign Up</b></font></a>
+            <a href="signup.html" class="pull-right" style="margin-right: 2%"><font color="21264c"><b>Sign Up</b></font>
+            </a>
         </ul>
     </header>
     
     <body>
-        
+        <div class="loginform">
+            <h1>Login</h1>
+            <form>
+                <div class="inputBox">
+                    <input type="text" required="">
+                    <label>Username</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="">
+                    <label>Password</label>
+                </div>
+                <input type="submit" value="Submit" class="center-block">
+            </form>
+        </div>
     </body>
 </html>
