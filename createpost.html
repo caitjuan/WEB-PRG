@@ -6,7 +6,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="js.js"></script>
-    <title> Home | DIY minimalist </title>
+    <title> Create Post | DIY minimalist </title>
     </head>
 
     <header>
@@ -37,8 +37,20 @@
             <tr style="border-bottom:1px solid black"><th><a href="member_terms.html">Terms of Use</a></th><th></th></tr>
             <tr><th><a href="member_about.html">About Us</a></th></tr>
         </table>
+        
         <div class="main">
-            
+            <label style="font-size:30px">CREATE POST</label>
+            <div>
+                <form class="createpostform">
+                <input type="text" name="postitle" id="title" placeholder="Title"><br><br>
+                <div class="upload">
+                    <input type="file" name="pic1" accept="image/*">
+                    <input type="file" name="pic2" accept="image/*">
+                    <input type="file" name="pic3" accept="image/*">
+                </div><br>
+                <input type="text" name="postdesc" id="desc" placeholder="Enter description..."><br><br>
+              </form>
+            </div>
         </div>
     </body>
     

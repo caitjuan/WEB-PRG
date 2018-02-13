@@ -181,6 +181,22 @@ ul#footer{
     width: 75%;
 }
 
+.createpostform input[type=text]#title {
+    font-size:16px;
+    width:50%;
+}
+
+.createpostform input[type=text]#desc {
+    font-size:16px;
+    width:50%;
+}
+
+.upload {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
 /* START OF FORM */
 .entryform {
     position: absolute;
@@ -268,4 +284,4 @@ div#signup {
   margin-right: auto;
   margin-left: auto;
 }
-/* END OF FORM /*
+/* END OF FORM */
