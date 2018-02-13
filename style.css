@@ -165,6 +165,21 @@ ul#footer{
     list-style-type: none;
 }
 
+.profileform input[type=text] {
+    font-family: "Open Sans", sans-serif;
+    border: none;
+}
+
+.profileform input[type=text]#uname {
+    font-size:25px;
+    width: 50%;
+}
+
+.profileform input[type=text]#desc {
+    font-size:14px;
+    width: 75%;
+}
+
 /* START OF FORM */
 .entryform {
     position: absolute;
