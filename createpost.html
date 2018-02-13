@@ -6,7 +6,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="js.js"></script>
-    <title> Home | DIY minimalist </title>
+    <title> Create Post | DIY minimalist </title>
     </head>
 
     <header>
@@ -22,7 +22,7 @@
         </ul>
     </header>
     
-    <body background="IMAGE BANK\homebg.png">
+    <body background="IMAGE BANK\createbg.png">
         <table class="sidebarcss" style="display:none" id="sidebarjs">
             <tr style="border-bottom:1px solid black">
                 <th style="width:80%"><p>MENU</p></th>
@@ -30,18 +30,25 @@
             </tr>
             <tr><th><a href="profile.html">Username</a></th></tr>
             <tr><th><a href="member_home.html">Home</a></th></tr>
-            <tr><th><a href="profile.html">Username</a></th></tr>
+            <tr><th><a href="createpost.html">Create Post</a></th></tr>
             <tr style="border-bottom:1px solid black"><th><a href="member_tags.html">Tags</a></th><th></th></tr>
+            <tr style="border-bottom:1px solid black"><th><a href="settings.html">Account Settings</a></th><th></th></tr>
             <tr><th><a href="member_privacy.html">Privacy Policy</a></th></tr>
             <tr style="border-bottom:1px solid black"><th><a href="member_terms.html">Terms of Use</a></th><th></th></tr>
             <tr><th><a href="member_about.html">About Us</a></th></tr>
         </table>
         
         <div class="main">
+            <label style="font-size:30px">CREATE POST</label>
             <div>
-              <form class="profileform">
-                <input type="text" name="username" id="uname" value="Ugandan Knuckles" readonly><br>
-                <input type="text" name="description" id="desc" value="I am de wae. It's ice ice water, baby." readonly>
+                <form class="createpostform">
+                <input type="text" name="postitle" id="title" placeholder="Title"><br><br>
+                <div class="upload">
+                    <input type="file" name="pic1" accept="image/*">
+                    <input type="file" name="pic2" accept="image/*">
+                    <input type="file" name="pic3" accept="image/*">
+                </div><br>
+                <input type="text" name="postdesc" id="desc" placeholder="Enter description..."><br><br>
               </form>
             </div>
         </div>

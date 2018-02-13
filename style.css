@@ -117,10 +117,11 @@ header {
     margin-left: 20px;
     font-size: 12px;
     border: none;
+    color: black;
 }
 
 ul#header{
-    background: url("header.jpg");
+    background: url(../IMAGE BANK/header.jpg) no-repeat center center fixed;
     display: inline-block;
     position:fixed;
     top:0;
@@ -155,6 +156,46 @@ ul#footer{
     color:black;
     box-shadow:0 -1px rgba(0,0,0,.5) inset;
     text-align:center;
+}
+
+#tags ul{
+    font-size:18px;    
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style-type: none;
+}
+
+.profileform input[type=text] {
+    font-family: "Open Sans", sans-serif;
+    border: none;
+}
+
+.profileform input[type=text]#uname {
+    font-size:25px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.profileform input[type=text]#desc {
+    font-size:14px;
+    width: 75%;
+}
+
+.createpostform input[type=text]#title {
+    font-size:16px;
+    width:50%;
+}
+
+.createpostform input[type=text]#desc {
+    font-size:16px;
+    width:50%;
+}
+
+.upload {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
 
 /* START OF FORM */
@@ -243,6 +284,7 @@ div#signup {
   margin-right: auto;
   margin-left: auto;
 }
+<<<<<<< HEAD
 /* END OF FORM /*
 
 /* START OF POSTS */
@@ -302,3 +344,6 @@ div#signup {
 
 
 /* END OF POST */
+=======
+/* END OF FORM */
+>>>>>>> e199631cb52a2d5e24123c2eba36c7ef283abbe0
