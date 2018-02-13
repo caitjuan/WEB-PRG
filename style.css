@@ -1,6 +1,8 @@
 body {
-    background: url("homebg.png") no-repeat center center fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header {
@@ -41,8 +43,8 @@ header {
     padding: 0px 16px;
     float: none;
     background-color: #7a8090;
-    position:fixed !important;
-    overflow:auto;
+    position: fixed !important;
+    overflow: auto;
     font-family: "Open Sans", sans-serif;
     margin-top: -4.5%;
     animation: slide 0.5s;
@@ -154,12 +156,14 @@ ul#footer{
     text-align:center;
 }
 
-/* START OF LOGIN FORM */
-.loginform {
+/* START OF FORM */
+.entryform {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    
     width: 400px;
     padding: 40px;
     background: rgba(0,0,0,.8);
@@ -168,18 +172,31 @@ ul#footer{
     border-radius: 10px;
 }
 
-.loginform h1 {
+div#signup {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.entryform .Login {
+    top: 50%;
+}
+
+.entryform .Signup {
+    top: 60%;
+}
+
+.entryform h1 {
     margin: 0 0 30px;
     padding: 0;
     color: #03A9F4;
     text-align: center;
 }
 
-.loginform .inputBox {
+.entryform .inputBox {
     position: relative;
 }
 
-.loginform .inputBox input {
+.entryform .inputBox input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -191,7 +208,7 @@ ul#footer{
     background: transparent;
 }
 
-.loginform .inputBox label {
+.entryform .inputBox label {
     position: absolute;
     top: 0;
     left: 0;
@@ -202,15 +219,15 @@ ul#footer{
     transition: .5s; 
 }
 
-.loginform .inputBox input:focus ~ label,
-.loginform .inputBox input:valid ~ label {
+.entryform .inputBox input:focus ~ label,
+.entryform .inputBox input:valid ~ label {
     top: -20px;
     left: 0;
     color: #03A9F4;
     font-size: 12px;
 }
 
-.loginform input[type="submit"] {
+.entryform input[type="submit"] {
     background: transparent;
     border: none;
     outline: none;
@@ -221,9 +238,9 @@ ul#footer{
     border-radius: 5px;
 }
 
-.loginform .center-block {
+.entryform .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-/* END OF LOGIN FORM /*
+/* END OF FORM /*
