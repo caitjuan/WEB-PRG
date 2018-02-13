@@ -172,6 +172,7 @@ ul#footer{
 
 .profileform input[type=text]#uname {
     font-size:25px;
+    font-weight: bold;
     width: 50%;
 }
 
