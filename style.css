@@ -166,20 +166,31 @@ ul#footer{
     list-style-type: none;
 }
 
+.profileform {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    opacity: 0.8;
+    word-wrap: break-word;
+}
+
 .profileform input[type=text] {
     font-family: "Open Sans", sans-serif;
     border: none;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .profileform input[type=text]#uname {
     font-size:25px;
     font-weight: bold;
-    width: 50%;
 }
 
 .profileform input[type=text]#desc {
     font-size:14px;
-    width: 75%;
 }
 
 .createpostform input[type=text]#title {
