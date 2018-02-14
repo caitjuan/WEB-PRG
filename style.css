@@ -184,8 +184,13 @@ ul#footer{
     text-align: center;
 }
 
-.profileform input[type=text]#uname {
+.profileform input[type=text]#name {
     font-size:25px;
+    font-weight: bold;
+}
+
+.profileform input[type=text]#uname {
+    font-size:20px;
     font-weight: bold;
 }
 
