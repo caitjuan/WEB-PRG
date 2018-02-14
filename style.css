@@ -121,7 +121,7 @@ header {
 }
 
 ul#header{
-    background: url(../IMAGE BANK/header.jpg) no-repeat center center fixed;
+    background: url(IMAGE BANK\header.jpg) no-repeat center center fixed;
     display: inline-block;
     position:fixed;
     top:0;
@@ -301,30 +301,30 @@ div#signup {
 #viewhome {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    font-family: "Open Sans", sans-serif;
 }
 
-#post{
-    border: 1px solid #777;
-    border-radius: 10px;
+#post {
     margin-bottom: 20px;
-    padding: 10px;  
+    border: 1px solid #777;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 10px; 
+    overflow: auto;
 }
 
-#post p{
+#post .posttitle{
     font-size: 25px;
     padding: 5px;
-    
-}
+ }
 
-#post a{
+#post .postinfo {
     padding: 5px;
 }
 
 #post table{
-    padding-bottom: 5px;
     margin: auto;
-    table-layout: fixed
-    position: absolute;
+    padding: 10px;
+    table-layout: fixed;
 }
 
 #post .design {
@@ -334,23 +334,21 @@ div#signup {
 }
 
 #post img{
-    border: 1px solid #777;
+    border: 2px solid black;
+    border-radius: 5px;
     height: 250px;
     width: 250px;
 }
 
 #viewhome input[type="submit"] {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #FFF;
     background: #2566A5;
+    color: #FFF;
+    font-size: 15px;
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius: 5px;  
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
-    width: 500px;
-    font-size: 15px;
-}
-
-
+ }
 /* END OF POST */
