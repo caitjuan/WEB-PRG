@@ -49,12 +49,13 @@ header {
     font-family: "Open Sans", sans-serif;
     margin-top: -4.5%;
     animation: slide 0.5s;
-    z-index: 2;
+    z-index: 2;    
 }
+
 
 @keyframes slide {
     0% {left:-200px;}
-    100% {left:0px;}
+    100% {left:0px;}    
 }
 
 .sidebarcss a {
@@ -121,13 +122,17 @@ header {
 }
 
 ul#header{
+<<<<<<< HEAD
     background: url("header.jpg");
+=======
+    background: url(header.jpg);
+>>>>>>> da4159db0dff16fd61410b90fcd3de606f6ae619
     display: inline-block;
     position:fixed;
     top:0;
     width:100%;
     height:4em;
-    margin:0;
+    margin:auto;
     padding:0 10px;
     background-color: #7a8090;
     color:#eee;
