@@ -184,13 +184,22 @@ ul#footer{
     text-align: center;
 }
 
-.profileform input[type=text]#uname {
+.profileform input[type=text]#name {
     font-size:25px;
+    font-weight: bold;
+}
+
+.profileform input[type=text]#uname {
+    font-size:20px;
     font-weight: bold;
 }
 
 .profileform input[type=text]#desc {
     font-size:14px;
+}
+
+.createpostform label {
+    font-size: 16px;
 }
 
 .createpostform input[type=text]#title {
@@ -201,6 +210,32 @@ ul#footer{
 .createpostform input[type=text]#desc {
     font-size:16px;
     width:50%;
+}
+
+.createpostform input[type=text]#tags {
+    font-size:16px;
+    width:50%;
+}
+
+.createpostform input[type=submit] {
+    border: none;
+    outline: none;
+    color: #FFF;
+    background: #2566A5;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom:15px;
+    width: 50%;
+}
+
+.createpostform input[type=submit]#create {
+    background-color: #7a8090;
+}
+
+.createpostform input[type=submit]#cancel {
+    background-color: #f44336;
 }
 
 .upload {
