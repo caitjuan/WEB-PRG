@@ -46,7 +46,9 @@
         
         <div class="main" id="viewhome">
             <div id="post">
-                <p>Felt Toys</p>
+                <a href="editpost.html"><button class="glyphicon glyphicon-edit pull-right" id="editbutton"></button></a>
+                <button class="glyphicon glyphicon-trash pull-right" id="deletebutton" data-toggle="modal" data-target="#myModal"></button>
+                <p class="posttitle">Felt Toys</p>
                 <table>
                     <tr>
                         <th><img src="POSTS\felt cloth.jpg"></th>
@@ -56,15 +58,42 @@
                         <th><img src="POSTS\felt toys.jpg"></th>
                     </tr>
                 </table>
-                <div> TAGS:
-                    <a>crafts</a>
-                    <a>felt</a>
-                    <a>thread</a>
-                    <a>toys</a>
-                    <a>cloth</a>
-                </div>   
+                <div class="postinfo">
+                    <div> 
+                        <a>@ugandancluckcluckcluck</a>
+                    </div>
+                    <div> 
+                        Give love and make felt toys ♥
+                    </div>
+                    <div> TAGS:
+                        <a>crafts</a>
+                        <a>felt</a>
+                        <a>thread</a>
+                        <a>toys</a>
+                        <a>cloth</a>
+                    </div>  
+                </div>
             </div>
-        </div>
+            <input type="submit" value="View More" class="center-block">
+        </div>   
+        
+        <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+                    <div class="modal-dialog">
+                        
+                        <div class="modal-content">
+                            <div class ="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">DELETE POST</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>WARNING! This post will be deleted permanently. Proceed?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </body>
     
     <footer>

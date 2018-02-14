@@ -121,7 +121,7 @@ header {
 }
 
 ul#header{
-    background: url(IMAGE BANK\header.jpg) no-repeat center center fixed;
+    background: url("header.jpg");
     display: inline-block;
     position:fixed;
     top:0;
@@ -332,7 +332,6 @@ div#signup {
 }
 /* END OF FORM */
 
-/* START OF POSTS */
 #viewhome {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
@@ -375,7 +374,13 @@ div#signup {
     width: 250px;
 }
 
-#viewhome input[type="submit"] {
+#post .glyphicon {
+    margin-right: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#viewhome input[type="submit"]{
     background: #2566A5;
     color: #FFF;
     font-size: 15px;
@@ -387,3 +392,7 @@ div#signup {
     cursor: pointer;
  }
 /* END OF POST */
+
+#viewhome modal{
+    opacity: 1;
+}
