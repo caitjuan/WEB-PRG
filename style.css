@@ -122,21 +122,18 @@ header {
 }
 
 ul#header{
-<<<<<<< HEAD
-    background: url("header.jpg");
-=======
-    background: url(header.jpg);
->>>>>>> da4159db0dff16fd61410b90fcd3de606f6ae619
-    display: inline-block;
+    background-image: url("IMAGE BANK/header.jpg");
+    background-color: #7A8090;
+    background-repeat: no-repeat;
+    background-position: center; 
     position:fixed;
+    display: inline-block;
+    margin:auto;
+    box-shadow:0 -1px rgba(0,0,0,.5) inset;
     top:0;
     width:100%;
     height:4em;
-    margin:auto;
-    padding:0 10px;
-    background-color: #7a8090;
-    color:#eee;
-    box-shadow:0 -1px rgba(0,0,0,.5) inset;
+    padding:0 10px;    
 }
 
 ul#header > a{
@@ -353,6 +350,10 @@ div#signup {
     font-family: "Open Sans", sans-serif;
 }
 
+#viewhome modal{
+    opacity: 1;
+}
+
 #post {
     margin-bottom: 20px;
     border: 1px solid #777;
@@ -409,6 +410,3 @@ div#signup {
  }
 /* END OF POST */
 
-#viewhome modal{
-    opacity: 1;
-}
