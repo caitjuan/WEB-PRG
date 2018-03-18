@@ -336,6 +336,7 @@ div#signup {
 }
 /* END OF FORM */
 
+/* POST */
 #createtag, #deletebutton, #editbutton {
     border: none;
     outline: none;
@@ -385,6 +386,7 @@ div#signup {
     border: 2px solid black;
     border-radius: 5px;
     height: 250px;
+    max-width: 100%;
     width: 250px;
 }
 
@@ -398,7 +400,7 @@ div#signup {
     background: #2566A5;
     color: #FFF;
     font-size: 15px;
-    width: 500px;
+    width: 100%;
     outline: none;
     border: none;
     border-radius: 5px;  
